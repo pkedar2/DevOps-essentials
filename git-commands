@@ -1,0 +1,27 @@
+#git commands for daily use
+
+
+1.git init: Start a new Git repository in your project folder. It initializes version control for your code.
+
+2.git clone [repository URL]: Create a local copy of a remote repository on your machine. This allows you to work with the code locally.
+
+3.git add [file]: Prepare changes for the next commit. When you modify files, use this command to stage them for committing.
+
+4.git commit -m "Your commit message": Record changes with a meaningful message.
+
+5.
+
+    git status: Check the status of your working directory. It shows which files are modified, staged, or untracked.
+
+    git log: View the commit history. It displays a list of commits along with their messages.
+
+    git branch: List all branches in your repository. The current branch is highlighted.
+
+    git checkout [branch name]: Switch to a different branch. Use this to work on specific features or bug fixes.
+
+    git pull: Fetch changes from the remote repository and merge them into your local branch.
+
+
+    git push: Push your local commits to the remote repository. This updates the shared codebase.
+
+ 
