@@ -11,3 +11,5 @@ CMD [ "npm install" ]
 RUN command
 
 ENV key=value
+
+USER daemon
