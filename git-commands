@@ -9,19 +9,20 @@
 
 4.git commit -m "Your commit message": Record changes with a meaningful message.
 
-5.
+5.git status: Check the status of your working directory. It shows which files are modified, staged, or untracked.
 
-    git status: Check the status of your working directory. It shows which files are modified, staged, or untracked.
+6.git log: View the commit history. It displays a list of commits along with their messages.
 
-    git log: View the commit history. It displays a list of commits along with their messages.
+7.git log --oneline : command displays each commit on a single line and hash of commit.
 
-    git branch: List all branches in your repository. The current branch is highlighted.
+7.git branch: List all branches in your repository. The current branch is highlighted.
 
-    git checkout [branch name]: Switch to a different branch. Use this to work on specific features or bug fixes.
+8.git checkout [branch name]: Switch to a different branch. Use this to work on specific features or bug fixes.
 
-    git pull: Fetch changes from the remote repository and merge them into your local branch.
+9.git pull: Fetch changes from the remote repository and merge them into your local branch.
 
+10.git push: Push your local commits to the remote repository. This updates the shared codebase.
 
-    git push: Push your local commits to the remote repository. This updates the shared codebase.
+11.git reset --soft [commit id/HEAD~1]:command allows you to reset your branch to a specific commit while preserving the changes in your working directory and staging area.
 
- 
+12.git reset --hard [commit id/HEAD~1]:it discards changes in both the working directory and staging area, reverting to the specified commit.
