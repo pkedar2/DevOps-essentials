@@ -1,0 +1,42 @@
+1.systemctl start docker.service : to start docker service
+
+2.systemctl stop docker.service : to stop docker service
+
+3.docker build -t [tag-name] [Dockerfile] : to build image from docker file (name of docker file should be Dockerfile).
+
+4.docker run --name [conatiner name] -p [loacl port:conatiner port] -d [image tag/image id] -e [environment variables] : to run container from image , -d is used for detachable mode and -p for port binding, it will run app from conatiner in local.
+
+5.docker ps : to see list of containers
+
+6.docker image ls : to see list of images
+docker images :this can be also used
+
+7.docker  logs container-id : To see specific container logs
+
+8.docker logs --since=1h container-id : to see past 1hr logs
+
+9.docker describe container-id :to get detailed info of container.
+
+10.docker rmi image-id/tag : to remove image
+
+11.docker login -u <username> : to login docker hub
+
+12.docker pull <image_name> : to pull image from docker hub
+
+13.docker pull/push [private repo url:name] : to push or pull from private docker repo.
+
+14.docker tag httpd:test fedora/httpd:version1.0.test to rename image to new private repo name with version.
+
+15.docker start/stop <container_name>/<id> :to start stop container
+
+16.docker exec -it <container_name> sh :to get terminal of container application/to interact with application inside container.
+
+17.docker compose -f  up/down <yaml/yml file> -d :to up/down compose file, by doing down applications will start from begining.
+
+18.docker compose start/stop -f <yaml/yml file>  -d : to retain appliations as it is when it is up just do stop and if need back the container back just start it will retain changes.
+
+19.docker compose logs : to see docker compose logs
+
+20.docker creat network <network-name> : creat netwok for communication between different containers.
+
+
