@@ -26,3 +26,5 @@
 11.git reset --soft [commit id/HEAD~1]:command allows you to reset your branch to a specific commit while preserving the changes in your working directory and staging area.
 
 12.git reset --hard [commit id/HEAD~1]:it discards changes in both the working directory and staging area, reverting to the specified commit.
+
+13.git rebase origin/main : taking current branch to latest main branch
