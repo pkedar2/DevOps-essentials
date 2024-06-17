@@ -1,0 +1,15 @@
+version: '1'
+services:
+  mywebapp:
+    image: node
+    ports:
+      -3000:3000
+    environment:
+      - name=value
+
+  mypython:
+    image: python
+    ports:
+      -2300:2300
+    environment:
+      - name=value
