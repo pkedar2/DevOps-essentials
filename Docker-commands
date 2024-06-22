@@ -44,3 +44,5 @@ docker images :this can be also used
 22.docker cp [file in local] [conatiner-name/id]  :/path :to copy file from local to container
 
 23.docker cp [container-name:/file] . :to copy file from container to local
+
+24.docker run --name [conatiner-name] -p [local port:conatiner-port] -d -e -v [container-name:/path] image  :to store data in volume after deleting container
