@@ -39,4 +39,6 @@ docker images :this can be also used
 
 20.docker creat network <network-name> : creat netwok for communication between different containers.
 
+21.docker exec [conatiner-name/id] ls/ls -lrth  :to execcute aany command inside container from outside terminal
 
+22.docker cp [file in local] [conatiner-name/id]  :/path :to copy file from local to container

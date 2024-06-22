@@ -27,4 +27,4 @@
 
 12.git reset --hard [commit id/HEAD~1]:it discards changes in both the working directory and staging area, reverting to the specified commit.
 
-13.git rebase origin/main : taking current branch to latest main branch
+13.git rebase main
