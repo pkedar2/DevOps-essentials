@@ -42,3 +42,5 @@ docker images :this can be also used
 21.docker exec [conatiner-name/id] ls/ls -lrth  :to execcute aany command inside container from outside terminal
 
 22.docker cp [file in local] [conatiner-name/id]  :/path :to copy file from local to container
+
+23.docker cp [container-name:/file] . :to copy file from container to local
