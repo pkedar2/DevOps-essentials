@@ -1,5 +1,5 @@
-1.systemctl start docker.service : to start docker service
-
+''' systemctl start docker.service : to start docker service
+'''
 2.systemctl stop docker.service : to stop docker service
 
 3.docker build -t [tag-name] [Dockerfile] : to build image from docker file (name of docker file should be Dockerfile).
