@@ -1,0 +1,7 @@
+###cluster related commands###
+
+1.kubectl api-resources | more #shows api resources like endponits(ep),ns
+2.kubectl cluster-info   #Show cluster info
+3.kubectl config current-context #Show current context
+4.kubectl config get-contexts     #List all contexts
+5.kubectl config use-context <name>  #Switch context
