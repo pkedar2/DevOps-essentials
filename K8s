@@ -6,3 +6,6 @@
 4.kubectl config get-contexts                                           ##List all contexts
 5.kubectl config use-context <name>                                     ##Switch context
 6.kubectl create deployment --image=nginx --dry-run=client -o yml >deployment.yml  ##create deployment yml 
+7.kubectl diff -f new-deployment.yml | more                             ##difference between current running deployment and new deployment
+8.kubectl delete -f deployment.yml                                      ##delete deployment
+9.
